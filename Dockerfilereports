@@ -1,0 +1,4 @@
+FROM alpine:latest
+WORKDIR /report
+RUN echo "SENDING EMAIL REPORTS"
+CMD cat ./test
